@@ -1,0 +1,13 @@
+janela windows + ponto   -> coloca emojans
+barra espaço + mouse     -> seleciona
+CTRL + SHIFT + I         -> organiza o código
+CTRL + F                 -> seleciona o que quer encontrar para modificar
+Use a calculadora para ajustar as fontes do código, usando a referência :root{font-size 16} Exemplo: 12(fonte small) / 16 = 0.75
+
+
+Tornar a imagens publicas
+
+app.register(require('@fastify/static'), {
+  root: resolve(__dirname, '../uploads'),
+  prefix: '/uploads',
+})
